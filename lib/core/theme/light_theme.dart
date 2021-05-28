@@ -1,0 +1,90 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:reto_2/common.dart';
+
+final ThemeData appThemeData = ThemeData.light().copyWith(
+    appBarTheme: AppBarTheme(
+        color: RetoColors.background,
+        actionsIconTheme: IconThemeData(color: RetoColors.icons),
+        iconTheme: IconThemeData(color: RetoColors.icons),
+        elevation: 0,
+        textTheme: TextTheme(
+          headline1: GoogleFonts.openSans(
+              textStyle: TextStyle(
+                  color: RetoColors.text1,
+                  fontSize: kheader1FontSize,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 0)),
+          headline2: GoogleFonts.openSans(
+              textStyle: TextStyle(
+                  color: RetoColors.text1,
+                  fontSize: kheader2FontSize,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 0)),
+          headline3: GoogleFonts.openSans(
+              textStyle: TextStyle(
+                  color: RetoColors.text1,
+                  fontSize: kheader3FontSize,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 0)),
+          headline4: GoogleFonts.openSans(
+              textStyle: TextStyle(
+                  color: RetoColors.text1,
+                  fontSize: kheader4FontSize,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 0)),
+          bodyText1: GoogleFonts.openSans(
+              textStyle: TextStyle(
+                  color: RetoColors.text1,
+                  fontSize: kparagraphFontSize,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 0)),
+          bodyText2: GoogleFonts.openSans(
+              textStyle: TextStyle(
+                  color: RetoColors.text2,
+                  fontSize: kparagraphFontSize,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 0)),
+        )),
+    scaffoldBackgroundColor: RetoColors.background,
+    bottomAppBarColor: RetoColors.cards,
+    backgroundColor: RetoColors.background,
+    cardTheme: CardTheme(color: RetoColors.cards),
+    textTheme: TextTheme(
+      headline1: GoogleFonts.openSans(
+          textStyle: TextStyle(
+              color: RetoColors.text1,
+              fontSize: kheader1FontSize,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 0)),
+      headline2: GoogleFonts.openSans(
+          textStyle: TextStyle(
+              color: RetoColors.text1,
+              fontSize: kheader2FontSize,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 0)),
+      headline3: GoogleFonts.openSans(
+          textStyle: TextStyle(
+              color: RetoColors.text1,
+              fontSize: kheader3FontSize,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 0)),
+      headline4: GoogleFonts.openSans(
+          textStyle: TextStyle(
+              color: RetoColors.text1,
+              fontSize: kheader4FontSize,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 0)),
+      bodyText1: GoogleFonts.openSans(
+          textStyle: TextStyle(
+              color: RetoColors.text1,
+              fontSize: kparagraphFontSize,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 0)),
+      bodyText2: GoogleFonts.openSans(
+          textStyle: TextStyle(
+              color: RetoColors.text2,
+              fontSize: kparagraphFontSize,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 0)),
+    ));
